@@ -39,4 +39,4 @@ mongoose.connect('mongodb+srv://azimatulchamidah:azimatul17@dpsi.vshwldc.mongodb
   console.error('Connection error', err);
 });
 
-
+module.exports = app; 
