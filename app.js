@@ -39,9 +39,4 @@ mongoose.connect('mongodb+srv://azimatulchamidah:azimatul17@dpsi.vshwldc.mongodb
   console.error('Connection error', err);
 });
 
-console.log('ACCESS_TOKEN_SECRET:', process.env.ACCESS_TOKEN_SECRET);
-// File pembuatan token
-console.log('Signing Secret:', process.env.ACCESS_TOKEN_SECRET);
-// File verifikasi token
-console.log('Verification Secret:', process.env.ACCESS_TOKEN_SECRET);
 
