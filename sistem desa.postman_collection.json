@@ -1,0 +1,944 @@
+{
+	"info": {
+		"_postman_id": "5e822ce3-4174-4cc1-ab65-cdddf747abe4",
+		"name": "sistem desa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36168041"
+	},
+	"item": [
+		{
+			"name": "penduduk",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/penduduks/669961573bc21a752031a2eb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"penduduks",
+						"669961573bc21a752031a2eb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"devi\",\r\n  \"password\": \"devi\",\r\n  \"role\"    :\"user\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/register",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzE5MzY1ODA1LCJleHAiOjE3MTkzNjk0MDV9.UETrtP6mUa8-QaoKas89f6H785DHKqvv72XL3ZM4TT0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"azimatul\",\r\n  \"password\": \"azimatul\",\r\n  \"role\"    :\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/penduduks/66a1bd52f73a21e5c4612e12",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/penduduks/66a1bd52f73a21e5c4612e12",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"penduduks",
+						"66a1bd52f73a21e5c4612e12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"devi\",\r\n  \"password\": \"devi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/penduduks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/penduduks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"penduduks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/penduduks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_admin\": \"2\",\r\n    \"nama\": \"ayu\",\r\n    \"alamat\": \"Jl. cempaka No. 100\",\r\n    \"tgl_lahir\": \"1990-05-20\",\r\n    \"jenis_kelamin\": \"Perempuan\",\r\n    \"no_telepon\": \"081234867890\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/penduduks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"penduduks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"azimatul\",\r\n  \"password\": \"azimatul\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/kelolaBeritas/669e12a89475f7c601a4d421",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/kelolaBeritas/669e12a89475f7c601a4d421",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"kelolaBeritas",
+						"669e12a89475f7c601a4d421"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/kelolaBeritas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/kelolaBeritas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"kelolaBeritas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/kelolaBeritas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_berita\": 1, // Ganti dengan ID berita yang valid\r\n  \"kategori\": \"Pembuatan kartu keluarga\",\r\n  \"tanggal_upload\": \"2023-01-01\",\r\n  \"tanggal_update\": \"2023-01-02\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/kelolaBeritas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"kelolaBeritas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/kelolaBeritas/669e12a89475f7c601a4d421",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/kelolaBeritas/669e12a89475f7c601a4d421",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"kelolaBeritas",
+						"669e12a89475f7c601a4d421"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Beritas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_admin\": \"2\", // Ganti dengan ID admin yang valid\r\n  \"judul\": \"Judul Berita\",\r\n  \"author\": \"Penulis\",\r\n  \"konten\": \"Konten berita...\",\r\n  \"tanggal_unggah\": \"2024-07-24T00:00:00Z\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/Beritas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Beritas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/datapenduduks/669e077e2573c4fb649fd06f",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/datapenduduks/669e077e2573c4fb649fd06f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"datapenduduks",
+						"669e077e2573c4fb649fd06f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/datapenduduks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "ap",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_penduduk\": 3,\r\n  \"tgl_input\": \"2024-01-01\",\r\n  \"status\": \"aktif\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/datapenduduks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"datapenduduks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/datapenduduks/669e077e2573c4fb649fd06f",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/datapenduduks/669e077e2573c4fb649fd06f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"datapenduduks",
+						"669e077e2573c4fb649fd06f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/datapenduduks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/datapenduduks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"datapenduduks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Aduans",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTBiMjg3OGFiZWQwYTk2YWRhYmZhYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzIxODA3NTQ2LCJleHAiOjE3MjE4MTExNDZ9.662xtgLszNi2AjVXXiMbiSPp8KNSKoWWM0MD5ROBaeM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_penduduk\": 1,\r\n  \"judul\": \"pembuatan akte\",\r\n  \"deskripsi\": \"ingin membuat akte\",\r\n  \"tgl_aduan\": \"2023-02-04\",\r\n  \"status\": \"Belum Ditanggapi\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/Aduans",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Aduans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Beritas/669e0f06a4c12546c7224f7c",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Beritas/669e0f06a4c12546c7224f7c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Beritas",
+						"669e0f06a4c12546c7224f7c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Beritas/669e0f06a4c12546c7224f7c",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Beritas/669e0f06a4c12546c7224f7c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Beritas",
+						"669e0f06a4c12546c7224f7c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Aduans/669e0a6d0a4e6ba596671f39",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Aduans/669e0a6d0a4e6ba596671f39",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Aduans",
+						"669e0a6d0a4e6ba596671f39"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Beritas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id_admin\": 3,\r\n        \"judul\": \"Penyuluhan desa\",\r\n        \"author\": \"azi\",\r\n        \"konten\": \"Pengumuman penting terkait acara desa yang akan dilaksanakan 1 pekan.\",\r\n        \"tanggal_unggah\": \"2024-10-01\"\r\n\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/Beritas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Beritas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admins",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"laras\",\r\n  \"password\": \"123\",\r\n  \"email\": \"laras@gmail.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/admins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Aduans/669e0a6d0a4e6ba596671f39",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Aduans/669e0a6d0a4e6ba596671f39",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Aduans",
+						"669e0a6d0a4e6ba596671f39"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/Aduans",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Aduans",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Aduans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admins",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/admins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admins/66995be72d0f7e1412b0f510",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/admins/66995be72d0f7e1412b0f510",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admins",
+						"66995be72d0f7e1412b0f510"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admins/66995be72d0f7e1412b0f510",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWZkMzAyZjdmNDdiMDYyZjdiYjM1OCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMTg3NTc3MiwiZXhwIjoxNzIxODc5MzcyfQ.MAfRU0sWqCkn1dkuAqCQlQV_wdTn9euclrkpeo84cMU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/admins/66995be72d0f7e1412b0f510",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admins",
+						"66995be72d0f7e1412b0f510"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
